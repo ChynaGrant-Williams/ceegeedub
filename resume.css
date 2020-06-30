@@ -72,7 +72,7 @@ a.home:link {
   text-decoration: none;
   color:black;}
 a.home:visited {
-  text-decoration: color: black;}
+  color: black;}
 a.home:hover {
   text-decoration: underline;}
 a.home:active {
@@ -81,7 +81,7 @@ a.porfolio:link {
 	text-decoration: none;
 	color:black;}
 a.porfolio:visited {
-	text-decoration: color: red;}
+  color: black;}
 a.porfolio:hover {
 	text-decoration: underline;}
 a.porfolio:active {
@@ -90,7 +90,7 @@ a.harriet:link {
 	text-decoration: none;
 	color:black;}
 a.harriet:visited {
-	text-decoration: color: red;}
+  color: black;}
 a.harriet:hover {
 	text-decoration: underline;}
 a.harriet:active {
@@ -99,7 +99,7 @@ a.resume:link {
 	text-decoration: none;
 	color:black;}
 a.resume:visited {
-	text-decoration: color:red;}
+  color: black;}
 a.resume:hover {
 	text-decoration: underline;}
 a.resume:active {
