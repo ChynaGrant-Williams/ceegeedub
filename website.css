@@ -72,7 +72,7 @@ h1 {
 .pointer { cursor: pointer;}
 
 /* In page link management */
-a.home:link {
+/*a.home:link {
   text-decoration: none;
   color:black;}
 a.home:visited {
@@ -80,7 +80,7 @@ a.home:visited {
 a.home:hover {
   text-decoration: underline;}
 a.home:active {
-  text-decoration: underline;}
+  text-decoration: underline;}*/
 a.am:link {
   text-decoration: none;
   color:black;}
