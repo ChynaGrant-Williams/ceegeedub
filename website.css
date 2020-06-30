@@ -76,7 +76,7 @@ a.home:link {
   text-decoration: none;
   color:black;}
 a.home:visited {
-  text-decoration: color: black;}
+  color: black;}
 a.home:hover {
   text-decoration: underline;}
 a.home:active {
@@ -85,7 +85,7 @@ a.am:link {
   text-decoration: none;
   color:black;}
 a.am:visited {
-  text-decoration: color: red;}
+  color: black;}
 a.am:hover {
   text-decoration: underline;}
 a.am:active {
@@ -94,7 +94,7 @@ a.mr:link {
   text-decoration: none;
   color:black;}
 a.mr:visited {
-  text-decoration: color: red;}
+  color: black;}
 a.mr:hover {
   text-decoration: underline;}
 a.mr:active {
@@ -103,7 +103,7 @@ a.ht:link {
   text-decoration: none;
   color:black;}
 a.ht:visited {
-  text-decoration: color:red;}
+  color: black;}
 a.ht:hover {
   text-decoration: underline;}
 a.ht:active {
@@ -112,7 +112,7 @@ a.mp:link {
   text-decoration: none;
   color:black;}
 a.mp:visited {
-  text-decoration: color: red;}
+  color: black;}
 a.mp:hover {
   text-decoration: underline;}
 a.mp:active {
