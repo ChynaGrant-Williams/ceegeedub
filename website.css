@@ -72,6 +72,15 @@ h1 {
 .pointer { cursor: pointer;}
 
 /* In page link management */
+a.home:link {
+  text-decoration: none;
+  color:black;}
+a.home:visited {
+  text-decoration: color: black;}
+a.home:hover {
+  text-decoration: underline;}
+a.home:active {
+  text-decoration: underline;}
 a.am:link {
   text-decoration: none;
   color:black;}
