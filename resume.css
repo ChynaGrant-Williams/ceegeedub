@@ -104,3 +104,12 @@ a.resume:hover {
 	text-decoration: underline;}
 a.resume:active {
 	text-decoration: underline;}
+a.link:link {
+  text-decoration: none;
+  color: blue;}
+a.link:visited {
+  color: blue;}
+a.link:hover {
+  text-decoration: underline;}
+a.link:active {
+  text-decoration: underline;}
