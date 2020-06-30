@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+.right {
+	float:right;
+}	
+.left {
+	float:left;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Mouse type */
+.pointer { cursor: pointer;}
+
+/* In page link management */
+a.am:link {
+  text-decoration: none;
+  color:black;}
+a.am:visited {
+  text-decoration: color: red;}
+a.am:hover {
+  text-decoration: underline;}
+a.am:active {
+  text-decoration: underline;}
+a.mr:link {
+  text-decoration: none;
+  color:black;}
+a.mr:visited {
+  text-decoration: color: red;}
+a.mr:hover {
+  text-decoration: underline;}
+a.mr:active {
+  text-decoration: underline;}
+a.ht:link {
+  text-decoration: none;
+  color:black;}
+a.ht:visited {
+  text-decoration: color:red;}
+a.ht:hover {
+  text-decoration: underline;}
+a.ht:active {
+  text-decoration: underline;}
+a.mp:link {
+  text-decoration: none;
+  color:black;}
+a.mp:visited {
+  text-decoration: color: red;}
+a.mp:hover {
+  text-decoration: underline;}
+a.mp:active {
+  text-decoration: underline;}
