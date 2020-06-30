@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 .right {
 	float:right;
 }	
@@ -126,3 +125,6 @@ a.link:hover {
   text-decoration: underline;}
 a.link:active {
   text-decoration: underline;}
+ p.b {
+	 font-family: "Times New Roman", Times, serif;
+ }
