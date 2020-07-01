@@ -9,6 +9,9 @@
 	float:left;
 }
 
+/* Mouse type */
+.pointer { cursor: pointer;}
+
 body {
   background-color: #f1f1f1;
   padding: 20px;
@@ -68,10 +71,8 @@ h1 {
     width: 100%;
   }
 }
-/* Mouse type */
-.pointer { cursor: pointer;}
 
-/* In page link management */
+/*home link*/
 a.home:link {
   text-decoration: none;
   color:black;}
@@ -81,7 +82,8 @@ a.home:hover {
   text-decoration: underline;}
 a.home:active {
   text-decoration: underline;}
-  
+
+/*additional info links*/ 
 a.link:link {
   text-decoration: none;
   color: blue;}
@@ -91,3 +93,8 @@ a.link:hover {
   text-decoration: underline;}
 a.link:active {
   text-decoration: underline;}
+  
+/*click to enlargen content*/
+.content:hover {
+	opacity: 0.7;
+}
