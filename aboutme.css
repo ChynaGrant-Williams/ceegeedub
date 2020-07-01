@@ -80,42 +80,7 @@ a.home:hover {
   text-decoration: underline;}
 a.home:active {
   text-decoration: underline;}
-a.am:link {
-  text-decoration: none;
-  color:black;}
-a.am:visited {
-  color: black;}
-a.am:hover {
-  text-decoration: underline;}
-a.am:active {
-  text-decoration: underline;}
-a.mr:link {
-  text-decoration: none;
-  color:black;}
-a.mr:visited {
-  color: black;}
-a.mr:hover {
-  text-decoration: underline;}
-a.mr:active {
-  text-decoration: underline;}
-a.ht:link {
-  text-decoration: none;
-  color:black;}
-a.ht:visited {
-  color: black;}
-a.ht:hover {
-  text-decoration: underline;}
-a.ht:active {
-  text-decoration: underline;}
-a.mp:link {
-  text-decoration: none;
-  color:black;}
-a.mp:visited {
-  color: black;}
-a.mp:hover {
-  text-decoration: underline;}
-a.mp:active {
-  text-decoration: underline;}
+
 a.link:link {
   text-decoration: none;
   color: blue;}
@@ -125,6 +90,7 @@ a.link:hover {
   text-decoration: underline;}
 a.link:active {
   text-decoration: underline;}
- p.b {
+
+p.b {
 	 font-family: "Times New Roman", Times, serif;
- }
+}
