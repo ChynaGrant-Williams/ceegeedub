@@ -15,7 +15,7 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
+/*CENTERS WEBSITE*/
 .main {
   max-width: 1000px;
   margin: auto;
@@ -30,48 +30,50 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+/*COLUMN PADDING*/
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/*create four equal columns that floats next to each other*/
 .column {
   float: left;
   width: 25%;
 }
 
-/* Clear floats after rows */ 
+/* clear floats after rows */ 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
+/*CONTENT DIV*/
 .content {
   background-color: #ffffff;
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*RESPONSIVE LAYOUT*/
+
+/*makes a two column-layout instead of four columns*/
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*makes the two columns stack on top of each other instead of next to each other*/
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
-/* Mouse type */
+
+/*MOUSE TYPE*/
 .pointer { cursor: pointer;}
 
-/* In page link management */
+/*HOME PAGE LINK*/
 a.home:link {
   text-decoration: none;
   color:black;}
@@ -81,6 +83,8 @@ a.home:hover {
   text-decoration: underline;}
 a.home:active {
   text-decoration: underline;}
+
+/*ABOUT ME LINK*/
 a.am:link {
   text-decoration: none;
   color:black;}
@@ -90,6 +94,8 @@ a.am:hover {
   text-decoration: underline;}
 a.am:active {
   text-decoration: underline;}
+
+/*MY RESUME LINK*/
 a.mr:link {
   text-decoration: none;
   color:black;}
@@ -99,6 +105,8 @@ a.mr:hover {
   text-decoration: underline;}
 a.mr:active {
   text-decoration: underline;}
+
+/*HARRIET TUBMAN LINK*/  
 a.ht:link {
   text-decoration: none;
   color:black;}
@@ -108,6 +116,8 @@ a.ht:hover {
   text-decoration: underline;}
 a.ht:active {
   text-decoration: underline;}
+
+/*MY PORTFOLIO LINK*/  
 a.mp:link {
   text-decoration: none;
   color:black;}
@@ -117,6 +127,8 @@ a.mp:hover {
   text-decoration: underline;}
 a.mp:active {
   text-decoration: underline;}
+ 
+/*ADDITIONAL INFO LINK*/ 
 a.link:link {
   text-decoration: none;
   color: blue;}

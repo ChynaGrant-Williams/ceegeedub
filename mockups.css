@@ -9,7 +9,7 @@
 	float:left;
 }
 
-/* Mouse type */
+/*MOUSE TYPE*/
 .pointer { cursor: pointer;}
 
 body {
@@ -18,7 +18,7 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
+/*CENTERS WEBSITE*/
 .main {
   max-width: 1000px;
   margin: auto;
@@ -33,46 +33,47 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+/*COLUMN PADDING*/
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/*create four equal columns that floats next to each other*/
 .column {
   float: left;
   width: 25%;
 }
 
-/* Clear floats after rows */ 
+/*clear floats after rows*/ 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
+/*CONTENT*/
 .content {
   background-color: #ffffff;
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*RESPONSIVE LAYOUT*/
+/*makes a two column-layout instead of four columns*/
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*makes the two columns stack on top of each other instead of next to each other*/
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
 
-/*home link*/
+/*HOME PAGE LINK*/
 a.home:link {
   text-decoration: none;
   color:black;}
@@ -83,7 +84,7 @@ a.home:hover {
 a.home:active {
   text-decoration: underline;}
 
-/*additional info links*/ 
+/*ADDITIONAL INFO LINK*/ 
 a.link:link {
   text-decoration: none;
   color: blue;}
@@ -144,7 +145,9 @@ a.link:active {
   to {transform:scale(1)}
 }
 
-/* The Close Buttons */
+/*CLOSE BUTTONS*/
+
+/*close flix*/
 .close {
   position: absolute;
   top: 15px;
@@ -160,7 +163,7 @@ a.link:active {
   text-decoration: none;
   cursor: pointer;
 }
-
+/*close fumbl*/
 .close2 {
   position: absolute;
   top: 15px;
@@ -176,7 +179,7 @@ a.link:active {
   text-decoration: none;
   cursor: pointer;
 }
-
+/*close hare package*/
 .close3 {
   position: absolute;
   top: 15px;
@@ -192,7 +195,6 @@ a.link:active {
   text-decoration: none;
   cursor: pointer;
 }
-
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){

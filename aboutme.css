@@ -14,7 +14,7 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
+/*CENTERS WEBSITE*/
 .main {
   max-width: 1000px;
   margin: auto;
@@ -29,39 +29,39 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+/*COLUMN PADDING*/
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/*create four equal columns that floats next to each other*/
 .column {
   float: left;
   width: 100%;
 }
 
-/* Clear floats after rows */ 
+/*clear floats after rows*/ 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
+/*CONTENT*/
 .content {
   background-color: #ffffff;
   padding: 10px;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*RESPONSIVE LAYOUT*/
+/*makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -70,7 +70,7 @@ h1 {
 /* Mouse type */
 .pointer { cursor: pointer;}
 
-/* In page link management */
+/*HOME PAGE LINK*/
 a.home:link {
   text-decoration: none;
   color:black;}
@@ -81,6 +81,7 @@ a.home:hover {
 a.home:active {
   text-decoration: underline;}
 
+/*ADDITIONAL INFO LINK*/ 
 a.link:link {
   text-decoration: none;
   color: blue;}
@@ -91,6 +92,7 @@ a.link:hover {
 a.link:active {
   text-decoration: underline;}
 
+/*ABOUT ME TEXT FONT*/
 p.b {
 	 font-family: "Times New Roman", Times, serif;
 }
