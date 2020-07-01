@@ -26,10 +26,21 @@ img3.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close1")[0];
+var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
 
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+  console.log('clicked 1');
+  modal1.style.display = "none";
+}
+span2.onclick = function() {
+	console.log('clisked 2');
+	modal2.style.display = "none";
+}
+span3.onclick = function() {
+	console.log('clicked 3');
+	modal3.style.display = "none";
 }
