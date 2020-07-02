@@ -73,6 +73,10 @@ h1 {
 /*MOUSE TYPE*/
 .pointer { cursor: pointer;}
 
+/*TITLE "CHYNA" TEXT FONT*/
+a.title {
+	 font-family: Georgia, serif;
+}
 /*HOME PAGE LINK*/
 a.home:link {
   text-decoration: none;
@@ -84,61 +88,20 @@ a.home:hover {
 a.home:active {
   text-decoration: underline;}
 
-/*ABOUT ME LINK*/
-a.am:link {
+/*LABEL LINKS*/
+a.label {
+	font-family: "Times New Roman", Times, serif;
+}
+a.label:link {
   text-decoration: none;
   color:black;}
-a.am:visited {
+a.label:visited {
   color: black;}
-a.am:hover {
+a.label:hover {
   text-decoration: underline;}
-a.am:active {
+a.label:active {
   text-decoration: underline;}
 
-/*MY RESUME LINK*/
-a.mr:link {
-  text-decoration: none;
-  color:black;}
-a.mr:visited {
-  color: black;}
-a.mr:hover {
-  text-decoration: underline;}
-a.mr:active {
-  text-decoration: underline;}
-
-/*HARRIET TUBMAN LINK*/  
-a.ht:link {
-  text-decoration: none;
-  color:black;}
-a.ht:visited {
-  color: black;}
-a.ht:hover {
-  text-decoration: underline;}
-a.ht:active {
-  text-decoration: underline;}
-
-/*MY PORTFOLIO LINK*/  
-a.mp:link {
-  text-decoration: none;
-  color:black;}
-a.mp:visited {
-  color: black;}
-a.mp:hover {
-  text-decoration: underline;}
-a.mp:active {
-  text-decoration: underline;}
-
-/*MOCKUPS & PROTOTYPES LINK*/
-a.pro:link {
-  text-decoration: none;
-  color:black;}
-a.pro:visited {
-  color: black;}
-a.pro:hover {
-  text-decoration: underline;}
-a.pro:active {
-  text-decoration: underline;}
- 
 /*ADDITIONAL INFO LINK*/ 
 a.link:link {
   text-decoration: none;

@@ -74,6 +74,8 @@ h1 {
 }
 
 /*HOME PAGE LINK*/
+a.home {
+	font-family: Georgia, serif;}
 a.home:link {
   text-decoration: none;
   color:black;}
@@ -82,6 +84,19 @@ a.home:visited {
 a.home:hover {
   text-decoration: underline;}
 a.home:active {
+  text-decoration: underline;}
+  
+a.label {
+	font-family: "Times New Roman", Times, serif;
+}
+a.label:link {
+  text-decoration: none;
+  color:black;}
+a.label:visited {
+  color: black;}
+a.label:hover {
+  text-decoration: underline;}
+a.label:active {
   text-decoration: underline;}
 
 /*ADDITIONAL INFO LINK*/ 
