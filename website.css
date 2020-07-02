@@ -127,6 +127,17 @@ a.mp:hover {
   text-decoration: underline;}
 a.mp:active {
   text-decoration: underline;}
+
+/*MOCKUPS & PROTOTYPES LINK*/
+a.pro:link {
+  text-decoration: none;
+  color:black;}
+a.pro:visited {
+  color: black;}
+a.pro:hover {
+  text-decoration: underline;}
+a.pro:active {
+  text-decoration: underline;}
  
 /*ADDITIONAL INFO LINK*/ 
 a.link:link {
