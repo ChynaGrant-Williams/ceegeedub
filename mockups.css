@@ -1,4 +1,4 @@
-* {
+/** {
   box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@
 	float:left;
 }
 
-/*MOUSE TYPE*/
+/*MOUSE TYPE
 .pointer { cursor: pointer;}
 
 body {
@@ -18,7 +18,7 @@ body {
   font-family: Arial;
 }
 
-/*CENTERS WEBSITE*/
+/*CENTERS WEBSITE
 .main {
   max-width: 1000px;
   margin: auto;
@@ -33,47 +33,47 @@ h1 {
   margin: 8px -16px;
 }
 
-/*COLUMN PADDING*/
+/*COLUMN PADDING
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/*create four equal columns that floats next to each other*/
+/*create four equal columns that floats next to each other
 .column {
   float: left;
   width: 25%;
 }
 
-/*clear floats after rows*/ 
+/*clear floats after rows
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*CONTENT*/
+/*CONTENT
 .content {
   background-color: #ffffff;
   padding: 10px;
 }
 
-/*RESPONSIVE LAYOUT*/
-/*makes a two column-layout instead of four columns*/
+/*RESPONSIVE LAYOUT
+/*makes a two column-layout instead of four columns
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/*makes the two columns stack on top of each other instead of next to each other*/
+/*makes the two columns stack on top of each other instead of next to each other
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
 
-/*HOME PAGE LINK*/
+/*HOME PAGE LINK
 a.home {
 	font-family: Georgia, serif;}
 a.home:link {
@@ -86,7 +86,7 @@ a.home:hover {
 a.home:active {
   text-decoration: underline;}
 
-/*LABEL LINKS*/
+/*LABEL LINKS
 a.label {
 	font-family: "Times New Roman", Times, serif;
 }
@@ -100,7 +100,7 @@ a.label:hover {
 a.label:active {
   text-decoration: underline;}
 
-/*ADDITIONAL INFO LINK*/ 
+/*ADDITIONAL INFO LINK
 a.link:link {
   text-decoration: none;
   color: blue;}
@@ -111,26 +111,26 @@ a.link:hover {
 a.link:active {
   text-decoration: underline;}
   
-/*click to enlargen content*/
+/*click to enlargen content
 .content:hover {
 	opacity: 0.7;
 }
-/* The Modal (background) */
+/* The Modal (background)  
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none; /* Hidden by default  
+  position: fixed; /* Stay in place  
+  z-index: 1; /* Sit on top  
+  padding-top: 100px; /* Location of the box  
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  width: 100%; /* Full width  
+  height: 100%; /* Full height  
+  overflow: auto; /* Enable scroll if needed  
+  background-color: rgb(0,0,0); /* Fallback color  
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity  
 }
 
-/* Modal Content (Image) */
+/* Modal Content (Image)  
 .modal-content {
   margin: auto;
   display: block;
@@ -148,10 +148,10 @@ a.link:active {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-}*/
+} 
 
-/* Add Animation - Zoom in the Modal */
-.modal-content /*, #caption*/ {
+/* Add Animation - Zoom in the Modal  
+.modal-content /*, #caption  {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -161,9 +161,9 @@ a.link:active {
   to {transform:scale(1)}
 }
 
-/*CLOSE BUTTONS*/
+/*CLOSE BUTTONS 
 
-/*close flix*/
+/*close flix 
 .close {
   position: absolute;
   top: 15px;
@@ -179,7 +179,7 @@ a.link:active {
   text-decoration: none;
   cursor: pointer;
 }
-/*close fumbl*/
+/*close fumbl 
 .close2 {
   position: absolute;
   top: 15px;
@@ -195,7 +195,7 @@ a.link:active {
   text-decoration: none;
   cursor: pointer;
 }
-/*close hare package*/
+/*close hare package 
 .close3 {
   position: absolute;
   top: 15px;
@@ -212,9 +212,9 @@ a.link:active {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+/* 100% Image Width on Smaller Screens  
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
   }
-}
+} */

@@ -1,3 +1,4 @@
+/*WEBSITE CSS - #1 CSS*/
 * {
   box-sizing: border-box;
 }
@@ -53,6 +54,7 @@ h1 {
 .content {
   background-color: #ffffff;
   padding: 10px;
+  border: 5px solid pink;
 }
 
 /*RESPONSIVE LAYOUT*/
@@ -60,8 +62,8 @@ h1 {
 /*makes a two column-layout instead of four columns*/
 @media screen and (max-width: 900px) {
   .column {
-    width: 50%;
-  }
+    width: 50%;  
+}
 }
 /*makes the two columns stack on top of each other instead of next to each other*/
 @media screen and (max-width: 600px) {
@@ -77,6 +79,18 @@ h1 {
 a.title {
 	 font-family: Georgia, serif;
 }
+
+/*HR STYLING FOR MOM*/
+hr {
+	border:1px;
+	border-top: solid pink;
+}
+
+/*MENU ICONS*/
+img.icon{
+	width:100%;
+}
+
 /*HOME PAGE LINK*/
 a.home:link {
   text-decoration: none;
