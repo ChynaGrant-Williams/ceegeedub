@@ -1,0 +1,140 @@
+/*PORTFOLIO CSS - #2 CSS*/
+* {
+  box-sizing: border-box;
+}
+
+.right {
+	float:right;
+}	
+.left {
+	float:left;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/*CENTERS WEBSITE*/
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/*COLUMN PADDING*/
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/*create four equal columns that floats next to each other*/
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*CONTENT DIV*/
+.content {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/*RESPONSIVE LAYOUT*/
+
+/*makes a two column-layout instead of four columns*/
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+/*makes the two columns stack on top of each other instead of next to each other*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*MOUSE TYPE*/
+.pointer { cursor: pointer;}
+
+/*TITLE "CHYNA" TEXT FONT*/
+a.title {
+	 font-family: Georgia, serif;
+}
+
+/*HR STYLING FOR MOM*/
+hr {
+	border-top:1px solid pink;
+}
+
+/*ABOUT ME TEXT FONT*/
+p.b {
+	 font-family: "Times New Roman", Times, serif;
+}
+/*ABOUT ME IMAGE*/
+img.profile{
+	width:100%;
+}
+
+
+/*EMBEDED YT VIDEOS*/
+embed.yt{
+	width:100%;
+	height:210px;
+}
+
+/*HOME PAGE LINK*/
+a.home {
+	font-family: Georgia, serif;
+	font-size:6vw;}
+a.home:link {
+  text-decoration: none;
+  color:black;}
+a.home:visited {
+  color: black;}
+a.home:hover {
+  text-decoration: underline;}
+a.home:active {
+  text-decoration: underline;}
+
+/*LABEL LINKS*/
+a.label {
+	font-family: "Times New Roman", Times, serif;
+}
+a.label:link {
+  text-decoration: none;
+  color:black;}
+a.label:visited {
+  color: black;}
+a.label:hover {
+  text-decoration: underline;}
+a.label:active {
+  text-decoration: underline;}
+
+/*ADDITIONAL INFO LINK*/ 
+a.link:link {
+  text-decoration: none;
+  color: blue;}
+a.link:visited {
+  color: blue;}
+a.link:hover {
+  text-decoration: underline;}
+a.link:active {
+  text-decoration: underline;}
