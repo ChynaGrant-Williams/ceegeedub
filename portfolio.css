@@ -140,13 +140,9 @@ a.link:hover {
 a.link:active {
   text-decoration: underline;}
   
+  
 /*MENU CSS */
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
-
-/*body {
-  font-family: Libre Caslon Text;
-  background-color: #FFAB91;
-}*/
 
 .body-text {
   padding-top: 20vh;
@@ -196,7 +192,7 @@ a.link:active {
 }
 
 div.menu-pane {
-  background-color: #000;
+  background-color: pink;
   position: absolute;
   transform: translateX(-105vw);
   transform-origin: (0, 0);
@@ -216,6 +212,7 @@ div.menu-pane {
 
 .menu-links li, a, span {
       transition: 0.5s ease-in-out;
+	  list-style-type:none;
 }
 
 .menu-pane ul {
@@ -236,53 +233,38 @@ div.menu-pane {
   margin-left: -10px;
 }
 
-
+/*DEFAULT MENU WORD COLOR*/
 .menu-links li a {
   color: white;
   text-decoration: none;
 }
 
-
+/*HOVERING OVER PAGE LINKS*/
 .menu-links li:hover a {
-  color: #FFAB91;
+  color: black;
 }
 
+/*HOVERING OVER HOME PAGE LINKS*/
 .menu-links li:first-child:hover a {
   color: black;  
-  background-color: #FFAB91;
+  background-color: white;
 }
 
-#QC-info {
-  background-color: #FFAB91;
-    border: 2px solid;
-  border-color: #FFAB91;
-display: block;
-  opacity: 0;
-  
-}
-
-.menu-links li:first-child:hover #QC-info {
-opacity: 1;
-}
-
-.menu-links li:first-child:hover #DC-info {
-opacity: 1;
-}
-
-#DC-info {
+#web-links {
   background-color: #FFAB91;
     border: 2px solid;
-  border-color: #FFAB91;
+  border-color: white;
 display: block;
   opacity: 0;
 }
 
+.menu-links li:first-child:hover #web-links{
+opacity: 1;
+}
 
 .menu-links li:first-child a {
   padding: 5px;
 }
-
-
 
 input.hamburger-checkbox {
   position: absolute;
