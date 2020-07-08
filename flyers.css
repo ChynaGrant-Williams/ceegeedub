@@ -58,6 +58,7 @@ h1 {
 .content {
   background-color: #ffffff;
   padding: 10px;
+  border: 2px solid pink;  
 }
 
 /*RESPONSIVE LAYOUT*/
