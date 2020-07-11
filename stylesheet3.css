@@ -126,10 +126,10 @@ img.pro{
 	height:100%;
 }
 
-/*OTHER FOLDER ICONS
-img.icon{
-	width:100%;
-}*/
+/*CAPTIONS*/
+p.b {
+	 font-family: "Times New Roman", Times, serif;
+}
 
 /*FLYER & MOCKUP IMAGES*/
 img.flyer{
