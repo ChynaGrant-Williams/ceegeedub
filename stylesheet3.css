@@ -130,6 +130,10 @@ img.pro{
 p.b {
 	 font-family: "Times New Roman", Times, serif;
 }
+p.enlarge{
+	font-size: 11.5px;
+	font-family: "Times New Roman", Times, serif;
+}
 
 /*FLYER & MOCKUP IMAGES*/
 img.flyer{
