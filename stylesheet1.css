@@ -76,10 +76,40 @@ h1 {
 .pointer { cursor: pointer;}
 
 /*TITLE "CHYNA" TEXT FONT*/
-a.title {
+h1 {
 	font-size:6vw;
-	 font-family: Georgia, serif;
+	font-family: Georgia, serif;
 }
+
+.typer-trick {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 49ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 
 /*HR STYLING FOR MOM*/
 hr {
