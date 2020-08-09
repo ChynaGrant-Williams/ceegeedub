@@ -64,15 +64,7 @@ h1 {
   .column {
     width: 50%;  
 }
-.title {
-  width: 15ch;
-  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
+
 }
 /*makes the two columns stack on top of each other instead of next to each other*/
 @media screen and (max-width: 600px) {
@@ -84,7 +76,7 @@ h1 {
 /*MOUSE TYPE*/
 .pointer { cursor: pointer;}
 
-/*TITLE "CHYNA" TEXT FONT*/
+/*TITLE "CHYNA" TEXT FONT FOR INDEX.HTML*/
 h1 {
 	font-size:6vw;
 	font-family: Georgia, serif;
@@ -97,7 +89,7 @@ h1 {
   justify-content: center;
 }
 
-/*.title {
+.title {
   width: 49ch;
   animation: typing 2s steps(20), blink .5s step-end infinite alternate;
   white-space: nowrap;
@@ -105,8 +97,17 @@ h1 {
   border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
-}*/
-
+}
+a.gohome:link {
+  text-decoration: none;
+  color:black;}
+a.gohome:visited {
+  color: black;}
+a.gohome:hover {
+  color: pink;}
+a.gohome:active {
+  text-decoration: none;}
+  
 @keyframes typing {
   from {
     width: 0;
@@ -118,7 +119,10 @@ h1 {
     border-color: transparent;
   }
 }
-
+/*TITLE #2 FOE HOMEPAGE.HTML LINK*/
+a.title2 {
+	font-family: Georgia, serif;
+	font-size:6vw;}
 
 /*HR STYLING FOR MOM*/
 hr {
